@@ -6,15 +6,16 @@
   }
   
   
+  
   /* ============= Animation background ========= */
   .background {
     background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
     background-size: 400% 400%;
     animation: none;
     position: relative;
+    overflow: hidden; /*set it to auto to activate scroll effect*/
     height: 100vh;
     width: 100%;
-    overflow: hidden;
     padding:0;
     margin:0px;
   }
